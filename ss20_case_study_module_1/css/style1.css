@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+.content button {
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    padding: 20px 45px;
+    border: none;
+    position: absolute;
+    bottom: 250px;
+    left: 45%;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.content button:hover {
+    background-color: #e74c3c;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
